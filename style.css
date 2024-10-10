@@ -100,7 +100,7 @@ main img {
     font-weight: 600;
 }
 
-#coming-soon-nav:hover a {
+#coming-soon-nav a:hover {
     background-color: lime;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
