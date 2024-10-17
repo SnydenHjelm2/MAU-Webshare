@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Exo2";
+    src: url(fonts/Exo2-VariableFont_wght.ttf);
+}
+
+#back {
+    color: var(--packers-green);
+}
+
+#back:hover {
+    color: lime;
+}
+
+body {
+    margin: 0;
+    --packers-yellow: #FFB612;
+    --packers-green: #203731;
+    background-color: var(--packers-yellow);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: "Exo2";
+}
+
+h1, h2 {
+    margin: 10px 0px;
+}
+
+#wins {
+    color: green;
+}
+
+#losses {
+    color: red;
+}
+
+header img {
+    height: 200px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    margin: 10px auto;
+    max-width: 1000px;
+    font-family: "Exo2";
+    align-items: center;
+    border: var(--packers-green) solid 3px;
+    background-color: var(--packers-green);
+    border-radius: 10px;
+    color: var(--packers-yellow);
+}
+
+#bye {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+    max-width: 1000px;
+    font-family: "Exo2";
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    border: var(--packers-green) solid 3px;
+    background-color: var(--packers-green);
+    border-radius: 10px;
+    color: var(--packers-yellow);
+}
+
+.image, .team-name, .result, .loss, .win, .tdb {
+    justify-self: center;
+}
+
+.team-name {
+    font-size: 20px;
+    margin: 0;
+    justify-self: start;
+    margin: 20px;
+}
+
+.result, .loss, .win, .tdb {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.loss {
+    color: red;
+}
+
+.win {
+    color: green;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#go-pack-go {
+    text-align: center;
+    font-family: "Exo2";
+    font-size: 70px;
+    color: var(--packers-green);
+}
+
+.bottom-imgs {
+    height: 80px;
+    margin: 0px 10px;
+}
+
+#gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
